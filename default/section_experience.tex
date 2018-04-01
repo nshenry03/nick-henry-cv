@@ -1,121 +1,86 @@
-% Awesome Source CV LaTeX Template
-%
-% This template has been downloaded from:
-% https://github.com/darwiin/awesome-neue-latex-cv
-%
-% Author:
-% Christophe Roger
-%
-% Template license:
-% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
-
-%Section: Work Experience at the top
-\sectionTitle{Expériences Professionelles}{\faSuitcase}
-%\renewcommand{\labelitemi}{$\bullet$}
+\sectionTitle{Work Experience}{\faSuitcase}
 \begin{experiences}
   \experience
-    {Aujourd'hui}   {Architecte logiciel | Développeur/Concepteur Senior JEE}{EPI}{Nouvelle-Calédonie}
-    {Décembre 2015} {
+    {Present}       {Technical Operations Manager}{AppDirect}{Boulder, CO}
+    {Jan 2016} {
                       \begin{itemize}
-                        \item Reconstruction de la plateforme d'intégration                        
-                        \item Migration des projets Java sous Maven                    
-                        \item Evolutions et corrections des bugs du framework de développement interne  
-                        \item Développement d'applications hybrides              
-                        \item Veille technologique                                                                    
+                        \item Worked as part of the Operations team to improve stability and increase redundancy to prevent downtime and data loss
+                        \item Infrastructure as code; created and managed our cloud infrastructure on Amazon using Terraform and we configured and administered servers with Chef
+                        \begin{itemize}
+                          \item This allowed us to spin up new environments faster, make changes quickly \& easily, and ensure that all environments were the same
+                          \item Changes were thoroughly tested in staging environments before being applied to production
+                          \item Allowed us to ensure that all of our infrastructure was PCI compliant.
+                          \item Permitted us to recover quickly when something failed
+                        \end{itemize}
                       \end{itemize}
                     }
-                    {Apache Tomcat,IntelliJ Idea,Eclipse,Maven,Spring Boot,Jenkins,Nexus,Ionic 3,Typescript,Firebase}
+                    {Disaster Recovery,High Availability,Chef,Terraform,Amazon Web Services}
   \emptySeparator
   \experience
-    {Novembre 2015} {Architecte logiciel | Développeur/Concepteur Senior JEE}{CAFAT}{Nouvelle-Calédonie}
-    {Avril 2014}    {
+    {Jan 2016}      {Technical Operations Manager}{Standing Cloud, An AppDirect Company}{Boulder, CO}
+    {Aug 2013}      {
                       \begin{itemize}
-                        \item Support et encadrement technique des équipes de développement                           
-                        \item Suivi, validation et intégration des développements externalisés                        
-                        \item Implémentation, analyse et livraison de correctifs de bugs sur les applicatifs métiers  
-                        \item Evolutions et corrections des bugs du framework de développement interne                
-                        \item Rédaction des dossiers d'architecture en collaboration avec les architectes fonctionnels
-                        \item Veille technologique                                                                    
+                        \item Helped AppDirect's Operations Team integrate companies that were acquired using Chef
+                        \item Helped support the San Francisco office while they looked for a new IT Manager
+                        \item Worked with Standing Cloud developers to automate their development environment, making it easier to on-board new team members
+                        \item Helped find solutions to facilitate communication and collaboration between remote offices and employees
+                        \item Performed day-to-day management activities for the Standing Cloud service and office infrastructure
                       \end{itemize}
                     }
-                    {JBoss EAP,IntelliJ Idea,Eclipse,Maven}
+                    {Chef,Amazon Web Services,Troubleshooting}
   \emptySeparator
   \experience
-    {Mars 2014}     {Architecte logiciel | Développeur/Concepteur Senior JEE}{Bull SAS}{France}
-    {Avril 2012}    {
+    {Aug 2013}      {Technical Operations Manager}{Standing Cloud}{Boulder, CO}
+    {Mar 2013}      {
                       \begin{itemize}
-                        \item Reconstruction du dépôt fiduciaire de logiciels de Bull Coriolis : réalisation, coordination et reporting
-                        \item Migration du serveur métier vers Open Cobol : suivi de projet et reporting                
-                        \item Solution documentaire collaborative (wiki) : mise en place et formation                   
-                        \item Evolutions et corrections : analyse, conception et développement                          
-                        \item Mise en place de conventions de code                                                      
-                        \item Mise en place d'un framework de développement d'interface web (jQuery, Bootstrap, taglibs)
+                        \item Proactively looked for issues and tried to resolve them before customers noticed or experienced problems
+                        \item Monitored server logs and production emails for any errors or warnings -- fixed issues if I could and created defects/stories if I could not
+                        \item Prioritized defects and stories based on degree of customer impact and frequency
+                        \item Added extensive system monitoring, which enabled the Systems and Technical Support teams to find and fix problems as soon as they occurred
+                        \item Supported customers directly, and served as Tier 2 / 3 escalation point for the Technical Support Team
+                        \item Performed day-to-day management activities for the Standing Cloud service and office infrastructure
                       \end{itemize}
                     }
-                    {Tomcat,Oracle DB,RichFaces,jQuery,Bootstrap,LESS,Hibernate,Spring,Eclipse,Maven}
-  \emptySeparator
-  \consultantexperience
-  {Mars 2012}       {Ingénieur Consultant}{Altran Technologies}{France}
-  {Avril 2011}      {IT Specialist}{IBM, Software Solutions Center of Excellence}
-                    {
-                      Solution de traçabilité et d'authentification de produits pharmaceutiques pour EDQM (\href{https://www.edqm.eu/fr/eTACT-1466.html}{Projet eTACT}).
-                      \begin{itemize}
-                        \item Conception et développement d'applications web                               
-                        \item Base de données : Modélisation et implémentation de la couche ORM            
-                        \item Conception et développement de Services Web \emph{SOAP}                      
-                      \end{itemize}
-                    }
-                    {\emph{WAS} 7,DB2,RichFaces,Infosphere Traceability Server,Hibernate,Ant}
-  \emptySeparator
-  \consultantexperience
-  {Avril 2011}      {Ingénieur Consultant}{Altran Technologies}{France}
-  {Mars 2011}       {IT Specialist}{IBM, Industry Solutions Insurance}
-                    {
-                      Conception et développement d'une application Android pour tablette. 
-                    }
-                    {Eclipse avec \emph{ADT},Android} 
-  \emptySeparator   
-  \consultantexperience
-  {Février 2011}    {Ingénieur Consultant}{Altran Technologies}{France}
-  {Février 2010}    {IT Specialist}{IBM, Product Lifecycle Management Center of Excellence}
-                    {
-                      Mise en place d'un \emph{Enterprise Service Bus} (ESB) et moteur de Workflow
-                      \begin{itemize}
-                        \item Définition et implémentation de processus métiers                           
-                        \item Mise en place d'un ESB, implémentation d'un format pivot standard et définition de médiations
-                      \end{itemize}
-                    }
-                    {
-                      Websphere Integration Developer,RSA,Websphere Business Modeler,Websphere Service Registry and Repository,Websphere Process Server,ENOVIA V6,Maximo Asset Management,Eclipse
-                    }   
-  \emptySeparator            
-  \consultantexperience
-  {Janvier 2010}    {Ingénieur Consultant}{Altran Technologies}{France}
-  {Décembre 2007}   {IT Specialist}{IBM, Sensor Solutions Center of Excellence}
-                    {
-                      \begin{itemize}
-                        \item Mise en place du suivi et du contrôle des commandes et approvisionnements à l'aide de la RFID
-                        \item Projet de suivi et authentification de containers (\href{http://www.container-centralen.co.uk/rfid/history.aspx}{description}) : conception et développement
-                        \item Amélioration d'une solution de contrôle des interventions dans un centre de données (RFID)
-                        \item Solution de lutte contre la contrefaçon pour un producteur de spiritueux (RFID)           
-                        \item Etude du protocole ONS : Analyse, \emph{POC}, documentation et présentation technique     
-                        \item Maintenance corrective et évolutions d'une plateforme M2M (basée sur Websphere Portal)    
-                      \end{itemize}
-                    }
-                    {
-                      DB2,Eclipse,Infosphere Traceability Server,Lotus Expeditor,Eclipse, 
-                      Rational Software Architect,IBM Premises Server,Maximo Asset Management for IT,RFIDIC (Infosphere Traceability Server - EPCIS)
-                    }
+                    {Troubleshooting}
   \emptySeparator
   \experience
-  {Novembre 2007}  {Ingénieur d'étude}{IBM}{France}
-  {Février 2007}   {
-                      Implémentation d'une solution de paiement NFC sur téléphones portables (\href{http://www.nouvo.ch/s-007}{vidéo}) 
-                      dans le cadre du projet Campus Nova pour le Crédit Agricole  
+    {Mar 2013}      {Systems Adminstrator}{Standing Cloud}{Boulder, CO}
+    {Oct 2010}      {
                       \begin{itemize}
-                        \item Implémentation d'un porte monnaie électronique                                            
-                        \item Intégration avec une plateforme de paiement en ligne  
+                        \item Developed scripts and configuration management for Standing Cloud's infrastructure
+                        \item Managed Standing Cloud's infrastructure
+                        \item Provided second level support for customers and the support team
                       \end{itemize}
-                  }
-                  {J2ME,Java Card,DB2,\emph{WAS}}  
+                    }
+                    {Bash, sed, AWK, SQL, Amazon Web Services, Rackspace, SoftLayer}
+  \emptySeparator
+  \experience
+    {Oct 2010}      {Junior Systems Adminstrator}{Standing Cloud}{Boulder, CO}
+    {Oct 2009}      {
+                      \begin{itemize}
+                        \item Developed web application and stack installation scripts for deployment on various cloud providers
+                        \item Managed Linux based cloud servers for customers
+                        \item Provided first level support for customers
+                      \end{itemize}
+                    }
+                    {Bash, sed, AWK, SQL}
+% \emptySeparator
+% \experience
+%   {Dec 2009}      {Founder and CEO}{TechNickal Solutions, LLC}{Wheat Ridge, CO}
+%   {April 2009}    {
+%                     I helped clients setup and manage office technologies, including:
+%                     \begin{itemize}
+%                       \item Networks / Computers for Employees
+%                       \item Web and Email Servers
+%                       \item Websites
+%                       \item FTP Servers and Version Control Systems
+%                     \end{itemize}
+%                   }
+%                   {Apache, Joomla, Drupal, WordPress, PHP, MySQL}
+% \emptySeparator
+% \experience
+%   {Mar 2009}      {Systems Administrator}{Omnitech International, Inc.}{Denver, CO}
+%   {Oct 2005}      {
+%                       My main responsibility was to keep everything up and running and to help users with any problems that they might have.  In my free time, I looked for ways to make the office run better.
+%                   }
 \end{experiences}
