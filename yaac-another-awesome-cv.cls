@@ -375,7 +375,7 @@
 
 \newcommand*\referee[5]{
   \hspace{1em}
-  \begin{minipage}[t]{\dimexpr(\linewidth/2) - 3em}
+  \begin{minipage}[t]{\dimexpr(\linewidth/3) - 3em}
     \begin{tabular}{>{}l >{}l}
       \multicolumn{2}{l}{\textbf{#1}}\\
       \multicolumn{2}{l}{\emph{#2}, \textsc{#3}}\\
@@ -384,4 +384,3 @@
     \end{tabular}
   \end{minipage}%
 }
-
